@@ -22,7 +22,11 @@ I started this because I was tired of seeing cookie-cutter developer portfolios.
 
 The feature I'm most proud of is the **popup context-aware secondary nav bar**. As you scroll between sections, a small nav appears and shows different action links depending on where you are. Work section shows "View GitHub." About section shows a resume download. Contact section surfaces email and social links. Getting this to feel smooth required scroll detection, section boundary tracking, and DOM updates that all had to happen without any flash or flicker. I wrote it in vanilla JS on purpose because I wanted to understand how it actually works before reaching for a library.
 
-Beyond that: horizontal scroll layout with smooth section navigation, responsive design split across three CSS files, a custom cursor and slide indicators, a contact form with client-side validation, and a wallpapers section tied to a Gumroad storefront. 25 commits, 69 deployments, still going.
+Beyond that: horizontal scroll layout with smooth section navigation, responsive design split across three CSS files, a contact form with client-side validation, and a custom cursor inspired by how the iPadOS pointer works. It's not just a dot that follows your mouse — it morphs and snaps to elements the way Apple's cursor does when it approaches something interactive. Getting that to feel natural in a browser took real work.
+
+One of the bigger things I'm actively building out is the **wallpapers storefront**. I make minimalist and abstract wallpapers and wanted a place to sell them directly through the site. The section exists and is designed, but the Gumroad integration is not wired up yet. That's the next concrete piece of work: connecting it to an actual storefront so people can browse and buy without leaving the site. It's not just a side feature — it's what makes this a real product and not just a portfolio page.
+
+25 commits, 69 deployments, still going.
 
 ---
 
