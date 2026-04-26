@@ -15,6 +15,8 @@ The popup secondary nav bar was the most interesting problem on this project. As
 
 The CSS is split across three files: a shared base, a desktop sheet, and a mobile sheet. More overhead upfront, but it made mobile iteration a lot less risky. I could change something on mobile without worrying about breaking desktop. Worth it.
 
+The custom cursor was another deliberate detail. I wanted it to behave like the iPadOS pointer: not just a dot that follows the mouse, but something that morphs and snaps to interactive elements the way Apple's cursor does. Replicating that feel in a browser without any framework was its own small problem to solve.
+
 Building this at all was a professional decision. A hand-built portfolio tells a different story than a Squarespace page.
 
 ---
@@ -27,7 +29,7 @@ This is entirely my own work. Every design call, every line of code, every deplo
 
 ## Quality Assessment
 
-I'd call it proficient with work left to do. The core experience is solid and the site is live. But the Work section is still showing a placeholder project, and the Wallpapers storefront isn't fully connected to Gumroad yet. If I started over I'd nail down the content structure before touching any CSS. I kept adjusting layout decisions mid-build because the content kept shifting. That's the habit I'm fixing: figure out what you're saying first, then figure out how it looks.
+I'd call it proficient with work left to do. The core experience is solid and the site is live. The next real milestone is the wallpapers storefront. I make minimalist and abstract wallpapers and the whole reason I built a dedicated section for them is to sell them directly through the site. The section is designed and in the nav, but it's not connected to Gumroad yet. That's the most concrete thing on my list. Beyond that, the Work section is still showing a placeholder and I want to replace it with real case studies. If I started over I'd nail down the content structure before touching any CSS. I kept adjusting layout decisions mid-build because the content kept shifting. Figure out what you're saying first, then figure out how it looks.
 
 ---
 
